@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textTopTextTextView"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:id="@+id/topText"
+        android:textColor="#f00a0a" />
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstAdverb"
+        android:layout_below="@+id/topText"
+        android:hint="@string/adverbEditText"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstNumber"
+        android:hint="@string/numberEditText"
+        android:textSize="15sp"
+        android:layout_below="@+id/firstAdverb"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/pluralNounEditText"
+        android:layout_below="@+id/firstNumber"
+        android:textSize="15sp"
+        android:id="@+id/firstPluralNoun"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/verbEditText"
+        android:textSize="15sp"
+        android:layout_below="@id/firstPluralNoun"
+        android:id="@+id/firstVerb"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/bodyPartEditText"
+        android:textSize="15sp"
+        android:layout_below="@+id/firstVerb"
+        android:id="@+id/bodyPart"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/verbEditText"
+        android:textSize="15sp"
+        android:layout_below="@+id/bodyPart"
+        android:id="@+id/secondVerb"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/adverbEditText"
+        android:textSize="15sp"
+        android:layout_below="@+id/secondVerb"
+        android:id="@+id/secondAdverb"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/pluralNounEditText"
+        android:textSize="15sp"
+        android:layout_below="@+id/topText"
+        android:layout_toRightOf="@id/firstAdverb"
+        android:id="@+id/secondPluralNoun"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/pluralNounEditText"
+        android:textSize="15sp"
+        android:layout_below="@+id/secondPluralNoun"
+        android:layout_toRightOf="@id/firstNumber"
+        android:id="@+id/thirdPluralNoun"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/pluralNounEditText"
+        android:textSize="15sp"
+        android:layout_below="@+id/thirdPluralNoun"
+        android:layout_toRightOf="@+id/firstPluralNoun"
+        android:id="@+id/fourthPluralNoun"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/funnyNoiseEditText"
+        android:textSize="15sp"
+        android:id="@+id/funnyNoise"
+        android:layout_below="@id/fourthPluralNoun"
+        android:layout_toRightOf="@+id/firstVerb"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/verbEditText"
+        android:textSize="15sp"
+        android:layout_below="@+id/funnyNoise"
+        android:id="@+id/thirdVerb"
+        android:layout_toRightOf="@+id/bodyPart"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/numberEditText"
+        android:textSize="15sp"
+        android:layout_below="@+id/thirdVerb"
+        android:layout_toRightOf="@+id/secondVerb"
+        android:id="@+id/secondNumber"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/verbEditText"
+        android:textSize="15sp"
+        android:layout_below="@+id/secondNumber"
+        android:layout_toRightOf="@+id/secondAdverb"
+        android:id="@+id/fourthVerb"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fourthPluralNoun"
+        android:layout_below="@+id/thirdPluralNoun"
+        android:text="@string/textGoButton"
+        android:onClick="onSendWords"/>
+
+</RelativeLayout>

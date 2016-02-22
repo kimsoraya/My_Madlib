@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My_Madlib</string>
+    <string name="startText">Welcome to Mad Libs! I\'m going to ask you to fill in a few blanks to create your own Mad Lib story! This is going to be fun!!! Press start to begin</string>
+    <string name="textGoButton">GO</string>
+    <string name="textTopTextTextView">Fill in the words to complete the story!</string>
+    <string name="thirdLayoutTopText">Behold! Your Mad Lib story:</string>
+    <string name="startButton">Start!</string>
+    <string name="startButtonLandscape">Start!</string>
+    <string name="adverbEditText">Adverb</string>
+    <string name="numberEditText">Number</string>
+    <string name="pluralNounEditText">Plural Noun</string>
+    <string name="verbEditText">Verb</string>
+    <string name="bodyPartEditText">Body Part</string>
+    <string name="funnyNoiseEditText">Funny Noise</string>
+
+</resources>
